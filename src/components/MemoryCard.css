@@ -1,7 +1,25 @@
 .Memory_Card { 
     height: 20vh; 
-    width: 15vw;
+    width: 150px;
+    height: 80px;
     background-color: teal;
-    color: white
+    color: white; 
+    display: inline-block;
+    margin: 3px;
+    border-radius: 5px;
+    border: solid 3px #193D49;
+    cursor: pointer;
+    background: repeating-linear-gradient(
+        45deg,
+        #16A7A2,
+        #16A7A2 10px,
+        #13807c 10px,
+        #13807c 20px
+      );
+
+}
+
+.Memory_Card > img { 
+    width: 80px;
 
 }
