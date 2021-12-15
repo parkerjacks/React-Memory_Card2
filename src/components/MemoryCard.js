@@ -7,7 +7,10 @@ class Memory_Card extends React.Component {
 
         return ( 
 
-        <div className="Memory_Card"> </div>
+        <div className="Memory_Card"> 
+             <img src="https://www.digitalcrafts.com/img/logo-wrench-white.png" /> 
+             
+        </div>
 
         )
     }
